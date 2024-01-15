@@ -6,7 +6,7 @@ const Card = ({ imageUrl }) => {
     <section className="text-gray-600 body-font bg-cover bg-center  bg-[url('/bg1.jpg')]">
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-20">
-          <h1 className="sm:text-3xl text-2xl text-center title-font text-yellow-600 font-bold mb-4">Bem-vindo ao Muro do Bacalhau.</h1>
+          <h1 className="sm:text-3xl text-2xl text-center title-font text-yellow-600 font-bold mb-4">MENU - Muro do Bacalhau.</h1>
         </div>
 
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto p-4 sm:mb-2 -mx-2">
@@ -21,7 +21,7 @@ const Card = ({ imageUrl }) => {
                   className="w-12 h-12 object-cover"
                 />
               </div>
-              <span className="title-font font-medium px-4">Starters</span>
+              <span className="title-font font-medium text-xl px-4">Starters</span>
             </div>
           </a>
 
@@ -36,7 +36,7 @@ const Card = ({ imageUrl }) => {
                   className="w-12 h-12 object-cover"
                 />
               </div>
-              <span className="title-font font-medium px-4">Main Meal</span>
+              <span className="title-font font-medium text-xl px-4">Main Meal</span>
             </div>
           </a>
 
@@ -51,7 +51,7 @@ const Card = ({ imageUrl }) => {
                   className="w-12 h-12 object-cover"
                 />
               </div>
-              <span className="title-font text-2xl font-medium px-4">Dessert</span>
+              <span className="title-font text-xl font-medium px-4">Dessert</span>
             </div>
           </a>
         </div>

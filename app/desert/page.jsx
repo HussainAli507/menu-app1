@@ -2,7 +2,17 @@ import React from 'react';
 
 function Burger() {
   return (
-    <div className="max-w-screen-md mx-auto m-10 bg-yellow-400 p-4 rounded-md shadow-md">
+
+    <div
+        className="max-w-screen-md mx-auto m-10 p-4 rounded-md shadow-md"
+        style={{
+          backgroundImage: 'url("/background1.jpeg")', // Replace with the actual image path
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundColor: 'rgba(255, 255, 255, 0.8)', // Optional: Add a semi-transparent white overlay
+        }}
+      >
+    <div className="max-w-screen-md mx-auto m-10 bg-yellow-400 opacity-80 p-4 rounded-md shadow-md">
       <h2 className="text-2xl font-semibold mb-4">Menu</h2>
 
       <div className="flex justify-between items-center mb-4 border-b border-gray-500 pb-2">
@@ -87,7 +97,7 @@ function Burger() {
         <div className="text-lg font-bold">€4</div> {/* Add the burger price here */}
       </div>
 
-     
+     </div>
     </div>
   );
 }
