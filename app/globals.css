@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.bg-image {
+    background-image: url('/bg.jpg'); /* Adjust the path based on your image file */
+    background-size: cover;
+    background-position: center;
+  }
+  
