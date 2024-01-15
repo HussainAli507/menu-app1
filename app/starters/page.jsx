@@ -80,7 +80,7 @@ function Starter() {
       >
 
         <div className="max-w-screen-md mx-auto m-10 bg-yellow-400 opacity-80 p-4 rounded-md shadow-md">
-      <h2 className="text-2xl font-semibold mb-4">Menu</h2>
+      <h2 className="text-2xl font-semibold mb-4">Aperitivos</h2>
 
       <div className="flex justify-between items-center mb-4 border-b border-gray-500 pb-2">
         <div className="flex items-center">
@@ -117,7 +117,7 @@ function Starter() {
       <div className="flex justify-between items-center mb-4 border-b border-gray-500 pb-2">
         <div className="flex items-center">
           <img
-            src="/burger.jpg" // replace with the actual image path
+            src="/Croquete de bacalhau.jpeg" // replace with the actual image path
             alt="Burger Image"
             className="w-16 h-16 object-cover rounded-full mr-4"
           />

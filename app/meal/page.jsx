@@ -13,12 +13,12 @@ function Burger() {
     }}
   >
     <div className="max-w-screen-md mx-auto m-10 bg-yellow-400 opacity-80 p-4 rounded-md shadow-md">
-      <h2 className="text-2xl font-semibold mb-4">Menu</h2>
+      <h2 className="text-2xl font-semibold mb-4">Refeição principal</h2>
 
       <div className="flex justify-between items-center mb-4 border-b border-gray-500 pb-2">
         <div className="flex items-center">
           <img
-            src="/burger.jpg" // replace with the actual image path
+            src="/choco.jpeg" // replace with the actual image path
             alt="Burger Image"
             className="w-16 h-16 object-cover rounded-full mr-4"
           />
@@ -36,7 +36,7 @@ function Burger() {
       <div className="flex justify-between items-center mb-4 border-b border-gray-500 pb-2">
         <div className="flex items-center">
           <img
-            src="/burger.jpg"   // replace with the actual image path
+            src="/ascabeche.jpeg"   // replace with the actual image path
             alt="Burger Image"
             className="w-16 h-16 object-cover rounded-full mr-4"
           />
@@ -52,7 +52,7 @@ function Burger() {
       <div className="flex justify-between items-center mb-4 border-b border-gray-500 pb-2">
         <div className="flex items-center">
           <img
-            src="/burger.jpg" // replace with the actual image path
+            src="/lambo.jpeg" // replace with the actual image path
             alt="Burger Image"
             className="w-16 h-16 object-cover rounded-full mr-4"
           />
@@ -85,7 +85,7 @@ function Burger() {
       <div className="flex justify-between items-center mb-4 border-b border-gray-500 pb-2">
         <div className="flex items-center">
           <img
-            src="/burger.jpg" // replace with the actual image path
+            src="/acorda.jpeg" // replace with the actual image path
             alt="Burger Image"
             className="w-16 h-16 object-cover rounded-full mr-4"
           />
